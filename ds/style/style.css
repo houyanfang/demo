@@ -77,7 +77,7 @@ a.channel span{width:11px;height:10px;background:url(../images/jt_60.jpg) right 
 a.fta:hover{width:95px;display:inline-block;color:#ff7201;font-size:12px;}
 .ftb{font:16px/1 "Microsoft YaHei", "微软雅黑";width:95px;display:inline-block;font-weight:bolder;}
 /*footer底部*/
-.footer{margin-top:20px;background-color:#d4d4d4;padding:20px 0px;}
+.footer{background-color:#d4d4d4;padding:20px 0px;}
 .ftcontent{width:1003px;margin:0px auto;text-align:center;line-height:30px;}
 .ftcontent a{margin:3px;}
 .ftcontent span{margin:3px 5px;}
@@ -125,7 +125,91 @@ a.choice_select{background:url(../images/jt_03.jpg) 95% center no-repeat;padding
 .blue{color:#4481c2;font-size:12px;font-family:"新宋体";font-style:normal;}
 .comment{padding-left:20px;}
 .cart{border:1px solid #4481c2;background:url(../images/shoppingcar_10.jpg) 10% center no-repeat;color:#4481c2;padding:2px 10px 2px 25px;}
-.fy{margin:10px auto;width:810px;text-align:center;}
+.fy{margin:10px auto;text-align:center;}
 .fy ul{display:inline-block;}
 .fy ul li{float:left;margin:0px 2px;}
 .fy ul li a{padding:2px 7px;border:1px solid #ccc;display:inline-block;}
+/*detail.html*/
+.detail_box{background-color:#f0f0f0;}
+.detail_content{width:1003px;margin:0px auto;}
+.detail_link{padding:10px 0px;line-height:32px;}
+.detail_pro{background-color:#fff;border:1px solid #ccc;}
+.detail_fl{float:left;height:575px;width:310px;border-right:1px solid #ccc;}
+.pad_box{padding:10px;text-align:center;}
+.big_pad{width:250px;height:325px;text-align:center;margin:0px auto;}
+.little_pad ul{display:inline-block;}
+.little_pad ul li{float:left;}
+.little_pad ul li a{display:inline-block;width:55px;height:55px;border:1px solid #ccc;margin-left:-1px;}
+ul.lt_img li a img{width:55px;height:55px;}
+.little_pad ul li a:hover{border:1px solid #317ee7;margin-right:1px;}
+.detail_fr{float:left;width:670px;padding:10px;line-height:30px;}
+.detail_fr h3,.detail_fr p{padding-left:10px;}
+.cd_pl dd span{margin-right:10px;}
+.cd_pl{padding:8px 0px;}
+.cd_pl dd select{height:20px;background-color:#fff;}
+.cd_pl dd span a{display:inline-block;padding:2px 25px;background-color:#fff;border:1px solid #ccc;}
+.cd_pl dd span a:hover{border:1px solid #317ee7;}
+.cd_pl dd span a.wifi_choice{display:inline-block;padding:0px 10px;height:25px;line-height:25px;margin-top:5px;}
+.cd_pl dd span input{margin:0px;float:left;}
+.cd_pl dd span input.jian{width:15px;height:35px;line-height:35px;border:1px solid #ccc;}
+.cd_pl dd span input.text_box{width:75px;height:33px;line-height:33px;border-top:1px solid #ccc;border-bottom:1px  solid #ccc; border-left-style:hidden;background-color:#fff;text-align:center;margin-right:-1px;}
+.cd_pl dd span input.jia{width:15px;height:35px;line-height:35px;border:1px solid #ccc;}
+.yh_price{background:url(../images/hg_06.jpg) left center no-repeat;margin-left:35px;padding-left:62px;color:#555;font-size:12px;}
+.number_big{color:#d70000;margin-left:30px;font:18px/1 "Microsoft YaHei", "微软雅黑";font-weight:bold;}
+.choice_detail{width:660px;padding:10px 0px 10px 10px;background-color:#f0f0f0;}
+.cd_pl{text-align:left;}
+.cd_pl dt{float:left;width:65px;}
+.cd_pl dd{float:left;width:590px;}
+.orange{color:#fc7700;font:14px/1 "Microsoft YaHei", "微软雅黑";font-weight:bold;}
+.fweight{font-weight:bold;padding:10px 0px;}
+.yellow_btn{text-align:center;padding:10px;}
+a.sh_btn{display:inline-block;background:url(../images/shopcar_10.jpg) 12% center no-repeat #f98700;color:#fff;font:20px/1 "Microsoft YaHei", "微软雅黑";padding:13px 20px 13px 50px;margin-right:50px;}
+.gray{margin-top:20px;color:#999;}
+.com_left{width:190px;float:left;}
+.same_price{border-top:2px solid #1d86cf;border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;background-color:#fff;}
+.img_left{margin:10px auto;}
+.com_img{text-align:center;}
+.same_price h3,.no_price h3{height:30px;line-height:30px;text-indent:15px;border-bottom:1px solid #ccc;}
+.f_line{height:20px;margin:0 auto;}
+.same_price p,.no_price p{padding:0px 10px;line-height:20px;}
+.no_price{border:1px solid #ccc;margin-top:15px;background-color:#fff;}
+.com_right{width:790px;float:right;}
+.commen_box{border:1px solid #ccc;background-color:#fff;}
+.commen_title{background:url(../images/bgs_07.jpg) repeat-x;}
+.commen_title ul{border-bottom:1px solid #ccc;}
+.commen_title ul li{width:50%;height:28px;line-height:28px;float:left;text-align:center;font-size:14px;}
+.commen_title ul li:hover{background-color:#0479ca;}
+.commen_title ul li a.pj{display:inline-block;background:url(../images/edmjpg_10.jpg)  20% center no-repeat;width:180px;}
+.commen_title ul li a.pj:hover{background:url(../images/em_03.jpg) 20% center no-repeat;width:180px;color:#fff;}
+.commen_title ul li a.jsd{display:inline-block;background:url(../images/talkingd_03.jpg) 20% center no-repeat;width:180px;}
+.commen_title ul li a.jsd:hover{background:url(../images/tald_10.jpg) 20% center no-repeat;width:180px;color:#fff;}
+.des{padding:10px;}
+.big_txt{color:#ff8f00;font:50px/1 "Microsoft YaHei", "微软雅黑";padding:10px;}
+.ft_e{font:18px/1 "Microsoft YaHei", "微软雅黑";color:#ccc;}
+.squere{width:455px;height:18px;background-color:#ccc;line-height:18px;color:#666;}
+.flg{margin-left:20px;float:left;margin-bottom:30px;}
+.squere a{display:inline-block;padding:0px 25px;float:left;}
+.all_comment{background-color:#f0f0f0;height:35px;line-height:35px;}
+.all_comment ul li{float:left;display:inline-block;margin:0px 10px;}
+.all_comment ul li.litim{float:right;}
+input.times{padding:5px 12px;background:url(../images/pxd_23.jpg) right center no-repeat;}
+.all_commentText{padding:20px;}
+.pic_vip{float:left;width:100px;}
+.pic_vip dl {display:inline-block;line-height:25px;}
+.pic_vip dl dt img{width:60px;height:60px;}
+.pic_vip dl dd{text-align:center;}
+.vip_comment{float:right;width:620px;padding-left:20px;}
+.vip_comment p{line-height:25px;}
+/*pro_detail*/
+.img_banner{text-align:center;padding:20px 0px;}
+.bluetitle{line-height:30px;height:30px;border-bottom:1px solid #d7d7d7;width:750px;margin:10px auto;}
+.bluetitle h3{width:85px;font:18px/1 "Microsoft YaHei", "微软雅黑";font-weight:400;color:#2457a6;border-bottom:1px solid #2457a6;line-height:30px;height:30px;}
+.text_fig{width:750px;margin:10px auto;line-height:30px;}
+/*carting*/
+.carting_box{width:1000px;margin:10px auto;background:url(../images/bgs_07.jpg) repeat-x top;border:1px solid #ccc;text-align:left;text-indent:10px;}
+.carting_box h3{height:30px;line-height:30px;}
+.carting_info{padding:20px;}
+.carting_info p{line-height:25px;}
+.redstar{color:#ff0000;display:inline-block;}
+.carting_info p span{margin:2px;}
+.ly_txt{width:260px;height:20px;line-height:20px;border:1px solid #ccc;}
