@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 /*公用*/
-.comwidth{width:1003px;margin:0px auto;}
+.comwidth{width:1003px;margin:0px auto;min-height:500px;}
 .leftArea{float:left;}
 .rightArea{float:right;}
 /*topBar*/
@@ -17,6 +17,7 @@
 /*shopcar*/
 .shopcar{width:145px;height:35px;background-color:#ff8c00;margin-top:25px;font:14px/35px "Microsoft YaHei", "微软雅黑";color:#fff;margin-right:40px;}
 .shopText{width:87px;height:100%;/*font-size:14px;font-family:Fixedsys, "微软雅黑";line-height:35px;*/border-right:#E27A00 solid 1px;background:url(../images/shopcar_10.jpg) 10px center no-repeat;text-indent:40px;}
+.shopText a{color:#fff;}
 .shopNum{width:26px;heihgt:35px;border-left:#FF9C01 solid 1px;background:url(../images/next_13.jpg)  33px center no-repeat;text-align:right;padding-right:30px;}
 /*navBar*/
 .navBar{background-color:#1369c0;height:35px;line-height:35px;color:#fff;}
